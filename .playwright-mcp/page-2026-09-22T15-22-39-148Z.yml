@@ -1,0 +1,108 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "agentq Agent Q" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "agentq" [ref=e7]
+        - generic [ref=e8]: Agent
+        - generic [ref=e9]: Q
+      - generic [ref=e10]:
+        - link "Home" [ref=e11] [cursor=pointer]:
+          - /url: /
+        - link "Service" [ref=e12] [cursor=pointer]:
+          - /url: /services
+        - link "Pricing" [ref=e13] [cursor=pointer]:
+          - /url: /pricing
+        - link "Docs" [ref=e14] [cursor=pointer]:
+          - /url: https://docs.agentq.id
+        - link "Sign in" [ref=e15] [cursor=pointer]:
+          - /url: /login
+  - generic [ref=e17]:
+    - heading "Quality assurance reimagined" [level=1] [ref=e18]:
+      - text: Quality assurance
+      - generic [ref=e19]: reimagined
+    - paragraph [ref=e20]: Automate your entire QA lifecycle with AgentQ. Deploy autonomous agents that generate test cases, execute with precision, and scale your releases at unprecedented speed.
+    - link "Start free trial" [ref=e22] [cursor=pointer]:
+      - /url: /signup
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]: 10K+
+        - generic [ref=e28]: Test cases generated
+      - generic [ref=e30]:
+        - generic [ref=e31]: 85%
+        - generic [ref=e32]: Time saved
+      - generic [ref=e34]:
+        - generic [ref=e35]: 99.9%
+        - generic [ref=e36]: Uptime SLA
+  - generic [ref=e38]:
+    - heading "Trusted and chosen by companies" [level=2] [ref=e40]
+    - generic [ref=e41]:
+      - img "Xapiens" [ref=e42] [cursor=pointer]
+      - img "Tablogs" [ref=e43] [cursor=pointer]
+      - img "OneBrick" [ref=e44] [cursor=pointer]
+      - img "Cubiqcloud" [ref=e45] [cursor=pointer]
+      - img "Jiwag" [ref=e46] [cursor=pointer]
+  - generic [ref=e49]:
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - heading "AI Test Generation" [level=3] [ref=e52]
+        - paragraph [ref=e53]: Automatically generate comprehensive test cases from requirement documents, user stories, and API documentation using advanced AI models.
+      - img "AI Test Generation" [ref=e55]
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - heading "AI-Powered Automated Execution" [level=3] [ref=e58]
+        - paragraph [ref=e59]: Execute E2E tests across multiple platforms (API, Web and Mobile) with No-Code automation test.
+      - img "Automated Execution" [ref=e61]
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - heading "Autonomous Security Test (DAST)" [level=3] [ref=e64]
+        - paragraph [ref=e65]: Launch deep-scan security audits in seconds. No scripts, no complex setups—just AI-driven protection.
+      - img "Smart Analytics" [ref=e67]
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - heading "Smart Analytics" [level=3] [ref=e70]
+        - paragraph [ref=e71]: Gain actionable insights with AI-powered analytics that forecasting productivity and efficiency testing process.
+      - img "Smart Analytics" [ref=e73]
+  - generic [ref=e75]:
+    - heading "Integrations" [level=2] [ref=e77]
+    - generic [ref=e78]:
+      - img "Shortcut" [ref=e79] [cursor=pointer]
+      - img "Atlassian" [ref=e80] [cursor=pointer]
+      - img "Plane" [ref=e81] [cursor=pointer]
+  - generic [ref=e83]:
+    - heading "Ready to automate your quality?" [level=2] [ref=e84]
+    - paragraph [ref=e85]: Join the elite teams shipping flawless software with AgentQ.
+    - link "Start free trial" [ref=e87] [cursor=pointer]:
+      - /url: /signup
+  - contentinfo [ref=e90]:
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - img "agentq" [ref=e94]
+          - generic [ref=e95]: Agent
+          - generic [ref=e96]: Q
+        - paragraph [ref=e97]: AI-powered software testing platform
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - heading "Product" [level=4] [ref=e100]
+          - link "Pricing" [ref=e101] [cursor=pointer]:
+            - /url: /pricing
+          - link "Docs" [ref=e102] [cursor=pointer]:
+            - /url: https://docs.agentq.id
+        - generic [ref=e103]:
+          - heading "Service" [level=4] [ref=e104]
+          - link "Coverage as a Service" [ref=e105] [cursor=pointer]:
+            - /url: /services
+        - generic [ref=e106]:
+          - heading "Contact" [level=4] [ref=e107]
+          - link "support@agentq.id" [ref=e108] [cursor=pointer]:
+            - /url: mailto:support@agentq.id
+          - link "Discord" [ref=e109] [cursor=pointer]:
+            - /url: https://discord.com/invite/YEExafVfeg
+        - generic [ref=e110]:
+          - heading "Legal" [level=4] [ref=e111]
+          - link "Privacy" [ref=e112] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms" [ref=e113] [cursor=pointer]:
+            - /url: /terms
+    - paragraph [ref=e115]: © 2026 AgentQ. All rights reserved.

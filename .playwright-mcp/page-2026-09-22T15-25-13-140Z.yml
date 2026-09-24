@@ -1,0 +1,236 @@
+- generic [ref=e142]:
+  - generic [ref=e143]:
+    - generic [ref=e144]:
+      - generic [ref=e145] [cursor=pointer]:
+        - img "agentq" [ref=e146]
+        - generic [ref=e147]: Agent
+        - generic [ref=e148]: Q
+      - button "Collapse" [ref=e149] [cursor=pointer]
+    - generic [ref=e154] [cursor=pointer]:
+      - generic [ref=e157]: Dashboard
+      - generic [ref=e158]: Beta
+    - generic [ref=e159]:
+      - generic [ref=e160]: Projects
+      - generic [ref=e162]:
+        - generic [ref=e163] [cursor=pointer]:
+          - generic [ref=e164]: F
+          - generic [ref=e165]: Final Project Bootcamp Automation - Change Password (In-App)
+        - generic [ref=e253]:
+          - generic [ref=e254] [cursor=pointer]:
+            - generic [ref=e260]: Requirements
+            - generic [ref=e261]: Beta
+          - generic [ref=e262] [cursor=pointer]: Test Cases
+          - generic [ref=e268] [cursor=pointer]: Test Plans
+          - generic [ref=e272] [cursor=pointer]: Test Runs
+          - generic [ref=e277] [cursor=pointer]: Issues
+          - generic [ref=e287] [cursor=pointer]:
+            - generic [ref=e292]: Reports
+            - generic [ref=e293]: Beta
+          - generic [ref=e294] [cursor=pointer]:
+            - generic [ref=e299]: Q-Atlas
+            - generic [ref=e300]: Beta
+      - generic [ref=e168] [cursor=pointer]: Add project
+      - generic [ref=e171] [cursor=pointer]: View all projects
+    - generic [ref=e172]:
+      - generic [ref=e174]:
+        - generic [ref=e175]: Free
+        - generic [ref=e178]: 0 of 1,000 tokens used
+        - button "Upgrade plan" [ref=e179] [cursor=pointer]
+      - generic [ref=e182] [cursor=pointer]:
+        - generic [ref=e183]: R
+        - generic [ref=e184]: Resti Noor Fahmi
+  - main [ref=e185]:
+    - generic [ref=e302]:
+      - generic [ref=e303]:
+        - generic [ref=e304]:
+          - button "← Back to Test Runs" [ref=e306] [cursor=pointer]
+          - heading "Change Password (In-App) (1)" [level=1] [ref=e308]
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Type
+            - generic [ref=e313]: General
+          - generic [ref=e315]:
+            - generic [ref=e316]: Environment
+            - generic [ref=e317]: stagiing
+          - generic [ref=e318]: Build
+          - generic [ref=e320]:
+            - generic [ref=e321]: Release
+            - generic [ref=e322]: "001"
+          - generic [ref=e323]:
+            - generic [ref=e324]: Description
+            - generic [ref=e325]: Execute test case
+        - generic [ref=e326]:
+          - generic [ref=e327]:
+            - generic [ref=e328]: Total test
+            - generic [ref=e329]: "29"
+          - generic [ref=e331]:
+            - generic [ref=e332]:
+              - generic [ref=e333]: Passed
+              - generic [ref=e334]: 0 (0.00%)
+            - generic [ref=e335]:
+              - generic [ref=e336]: Failed
+              - generic [ref=e337]: 3 (10.34%)
+            - generic [ref=e338]:
+              - generic [ref=e339]: Blocked
+              - generic [ref=e340]: 0 (0.00%)
+            - generic [ref=e341]:
+              - generic [ref=e342]: Skipped
+              - generic [ref=e343]: 0 (0.00%)
+            - generic [ref=e344]:
+              - generic [ref=e345]: Untested
+              - generic [ref=e346]: 26 (89.66%)
+        - generic [ref=e347]:
+          - textbox "Search test case" [ref=e351]
+          - button "All filters" [ref=e352] [cursor=pointer]
+        - table [ref=e354]:
+          - rowgroup [ref=e355]:
+            - row [ref=e356]:
+              - columnheader [ref=e357] [cursor=pointer]:
+                - checkbox [ref=e358]
+              - columnheader [ref=e359] [cursor=pointer]:
+                - button "ID" [ref=e360]
+              - columnheader [ref=e364] [cursor=pointer]:
+                - button "Title" [ref=e365]
+              - columnheader [ref=e369] [cursor=pointer]:
+                - button "Priority" [ref=e370]
+              - columnheader [ref=e374] [cursor=pointer]:
+                - button "Status" [ref=e375]
+              - columnheader [ref=e379] [cursor=pointer]
+          - rowgroup [ref=e380]:
+            - row [ref=e381] [cursor=pointer]:
+              - cell [ref=e382]:
+                - checkbox [ref=e383]
+              - cell "TC-1" [ref=e384]
+              - cell "CP-001 - User successfully changes password using valid credentials" [ref=e385]
+              - cell "critical" [ref=e386]
+              - cell "failed" [ref=e387]
+              - cell [ref=e388]
+            - row [ref=e389] [cursor=pointer]:
+              - cell [ref=e390]:
+                - checkbox [ref=e391]
+              - cell "TC-2" [ref=e392]
+              - cell "CP-002 - Validate Current Password is required" [ref=e393]
+              - cell "high" [ref=e394]
+              - cell "failed" [ref=e395]
+              - cell [ref=e396]
+            - row [ref=e397] [cursor=pointer]:
+              - cell [ref=e398]:
+                - checkbox [ref=e399]
+              - cell "TC-3" [ref=e400]
+              - cell "CP-003 - Validate New Password is required" [ref=e401]
+              - cell "high" [ref=e402]
+              - cell "failed" [ref=e403]
+              - cell [ref=e404]
+            - row [ref=e405] [cursor=pointer]:
+              - cell [ref=e406]:
+                - checkbox [ref=e407]
+              - cell "TC-4" [ref=e408]
+              - cell "CP-004 - Validate Confirm New Password is required" [ref=e409]
+              - cell "high" [ref=e410]
+              - cell "untested" [ref=e411]
+              - cell [ref=e412]
+            - row [ref=e413] [cursor=pointer]:
+              - cell [ref=e414]:
+                - checkbox [ref=e415]
+              - cell "TC-5" [ref=e416]
+              - cell "CP-005 - Verify password strength indicator for New Password" [ref=e417]
+              - cell "high" [ref=e418]
+              - cell "untested" [ref=e419]
+              - cell [ref=e420]
+            - row [ref=e421] [cursor=pointer]:
+              - cell [ref=e422]:
+                - checkbox [ref=e423]
+              - cell "TC-6" [ref=e424]
+              - cell "CP-006 - Verify existing session remains active after password change" [ref=e425]
+              - cell "high" [ref=e426]
+              - cell "untested" [ref=e427]
+              - cell [ref=e428]
+            - row [ref=e429] [cursor=pointer]:
+              - cell [ref=e430]:
+                - checkbox [ref=e431]
+              - cell "TC-7" [ref=e432]
+              - cell "CP-007 - Verify password fields reset after successful change" [ref=e433]
+              - cell "high" [ref=e434]
+              - cell "untested" [ref=e435]
+              - cell [ref=e436]
+            - row [ref=e437] [cursor=pointer]:
+              - cell [ref=e438]:
+                - checkbox [ref=e439]
+              - cell "TC-8" [ref=e440]
+              - cell "CP-008 - Verify user remains on Change Password page after success" [ref=e441]
+              - cell "high" [ref=e442]
+              - cell "untested" [ref=e443]
+              - cell [ref=e444]
+            - row [ref=e445] [cursor=pointer]:
+              - cell [ref=e446]:
+                - checkbox [ref=e447]
+              - cell "TC-9" [ref=e448]
+              - cell "CP-009 - Verify success notification uses API message" [ref=e449]
+              - cell "high" [ref=e450]
+              - cell "untested" [ref=e451]
+              - cell [ref=e452]
+            - row [ref=e453] [cursor=pointer]:
+              - cell [ref=e454]:
+                - checkbox [ref=e455]
+              - cell "TC-10" [ref=e456]
+              - cell "CP-010 - Verify incorrect Current Password displays API error" [ref=e457]
+              - cell "high" [ref=e458]
+              - cell "untested" [ref=e459]
+              - cell [ref=e460]
+      - generic [ref=e461]:
+        - generic [ref=e462]:
+          - generic [ref=e463]: "Rows per page:"
+          - combobox [ref=e465] [cursor=pointer]:
+            - option "10" [selected]
+            - option "25"
+            - option "50"
+            - option "100"
+        - generic [ref=e466]:
+          - generic [ref=e467]: 1-10 of 29
+          - generic [ref=e468]:
+            - button [disabled] [ref=e469]
+            - button [ref=e472] [cursor=pointer]
+        - generic [ref=e475]:
+          - generic [ref=e476]:
+            - heading "TC-2 CP-002 - Validate Current Password is required" [level=3] [ref=e477] [cursor=pointer]
+            - button "Esc" [ref=e478] [cursor=pointer]
+          - generic [ref=e480]:
+            - generic [ref=e483]:
+              - generic [ref=e484]:
+                - strong [ref=e485]: "Type:"
+                - text: functional
+              - generic [ref=e486]:
+                - strong [ref=e487]: "Priority:"
+                - text: high
+              - generic [ref=e488]:
+                - strong [ref=e489]: "Platform:"
+                - text: web
+              - generic [ref=e490]:
+                - strong [ref=e491]: "Test Case Type:"
+                - text: automation
+              - generic [ref=e492]:
+                - strong [ref=e493]: "Tags:"
+                - generic [ref=e494]:
+                  - generic [ref=e495]: US-07
+                  - generic [ref=e496]: required-field
+                  - generic [ref=e497]: validation
+                  - generic [ref=e498]: P1
+                  - generic [ref=e499]: change-password
+              - generic [ref=e500]:
+                - strong [ref=e501]: "Expectation:"
+                - paragraph [ref=e502]: Inline validation error is displayed for Current Password; FE prevents submission; Change Password API request is not sent; Password remains unchanged.
+            - generic [ref=e503]:
+              - generic [ref=e504]:
+                - heading "Test Result History" [level=4] [ref=e505]
+                - generic [ref=e506]: 1 result
+              - generic "Click to view test result details" [ref=e508] [cursor=pointer]:
+                - generic [ref=e511]:
+                  - generic [ref=e512]:
+                    - generic [ref=e513]: failed
+                    - generic [ref=e515]:
+                      - generic [ref=e516]: 9/22/2026, 7:05 PM
+                      - generic [ref=e517]: "Created by: restinf21@gmail.com"
+                  - button "🐞 Create Defect" [ref=e519]:
+                    - generic [ref=e520]: 🐞
+                    - text: Create Defect
+            - button "Add result" [ref=e522] [cursor=pointer]

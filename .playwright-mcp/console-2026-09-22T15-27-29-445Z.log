@@ -1,0 +1,56 @@
+[    1390ms] [LOG] Sidebar - currentUser: Proxy(Object) @ https://agentq.id/assets/index-BLZk0sHg.js:47
+[    1404ms] [LOG] Fetching projects with companyId: 29610a38-f138-4d3f-bd9d-c894a9d245f8 @ https://agentq.id/assets/index-BLZk0sHg.js:47
+[    1405ms] [LOG] Checking authentication... @ https://agentq.id/assets/index-BLZk0sHg.js:47
+[    1624ms] [LOG] Fetched recent projects for sidebar: Proxy(Array) @ https://agentq.id/assets/index-BLZk0sHg.js:47
+[    1711ms] [ERROR] Executing inline script violates the following Content Security Policy directive 'script-src 'self' https://snap-assets.midtrans.com https://api.midtrans.com https://pay.google.com https://gwk.gopayapi.com/sdk/stable/gp-container.min.js https://www.googletagmanager.com https://o.alicdn.com https://g.alicdn.com'. Either the 'unsafe-inline' keyword, a hash ('sha256-DueWcbxgRVJl6J5x2OBGlMjJ0RI9aTrwDoqaA4GHDhs='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked. @ https://app.midtrans.com/snap/v4/popup?origin_host=https://agentq.id&client_key=Mid-client-yDOohRuMqY_m4QfN#/:0
+[    1736ms] [LOG] Fetching projects with companyId: 29610a38-f138-4d3f-bd9d-c894a9d245f8 @ https://agentq.id/assets/index-BLZk0sHg.js:47
+[    1737ms] [LOG] Sidebar - currentUser: Proxy(Object) @ https://agentq.id/assets/index-BLZk0sHg.js:47
+[    1786ms] [LOG] Fetched recent projects for sidebar: Proxy(Array) @ https://agentq.id/assets/index-BLZk0sHg.js:47
+[    1803ms] [LOG] Fetching test results with params: page=1&limit=10&sortField=tcId&sortDirection=ASC @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1886ms] [LOG] AgentQ API key found @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1891ms] [LOG] AgentQ profile fetched successfully @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1913ms] [LOG] Sample test result data: Proxy(Object) @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1913ms] [LOG] Available fields: [id, testRunId, testCaseId, actualResult, duration, notes, status, vulnerabilityDescription, originalSeverity, adjustedSeverity, affectedUrls, requestResponse, remediationGuidance, screenshotUrl, videoUrl, logsUrl, logsSecurityUrl, highCount, mediumCount, lowCount, informationalCount, falsePositiveCount, sequence, previousResultId, isLatest, createdAt, updatedAt, createdBy, testCase] @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1914ms] [LOG] ExecutionTime value: undefined @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1914ms] [LOG] Duration value: null @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1914ms] [LOG] Final duration for display: undefined @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1914ms] [LOG] Video URL: null @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1914ms] [LOG] Screenshot URL: null @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1914ms] [LOG] Found 0 test results with video URLs @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1914ms] [LOG] Found 0 test results with screenshot URLs @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1966ms] [LOG] Extracting filter options from 29 test results @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1967ms] [LOG] Type options: Proxy(Array) @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1967ms] [LOG] Tag options: Proxy(Array) @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1968ms] [LOG] ✅ Filter options extraction complete: @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1968ms] [LOG]   - Status options: Proxy(Array) @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1968ms] [LOG]   - Priority options: Proxy(Array) @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1969ms] [LOG]   - Tag options: Proxy(Array) @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[    1969ms] [LOG]   - Type options: Proxy(Array) @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[   38616ms] [COUNT] %c%d: 1 @ https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin025.371d738a21f1623275714d3f4d0b4d110928d761fbab8b28d8b0581afd994247.js:0
+[   38618ms] [DIR] %c%d font-size:0;color:transparent Error @ https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin025.371d738a21f1623275714d3f4d0b4d110928d761fbab8b28d8b0581afd994247.js:0
+[   38618ms] [DIRXML] %c%d font-size:0;color:transparent Error @ https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin025.371d738a21f1623275714d3f4d0b4d110928d761fbab8b28d8b0581afd994247.js:0
+[   38620ms] [INFO] %c%d font-size:0;color:transparent NaN @ https://snap-assets.midtrans.com/snap/v4/assets/snap-popup-app.production.a5103c58b1066b302717.js:0
+[   38620ms] [INFO] %c%d font-size:0;color:transparent NaN @ https://snap-assets.midtrans.com/snap/v4/assets/snap-popup-app.production.a5103c58b1066b302717.js:0
+[   38621ms] [LOG] %c%d font-size:0;color:transparent NaN @ https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin025.371d738a21f1623275714d3f4d0b4d110928d761fbab8b28d8b0581afd994247.js:0
+[   38621ms] [TABLE] %c%d font-size:0;color:transparent Error @ https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin025.371d738a21f1623275714d3f4d0b4d110928d761fbab8b28d8b0581afd994247.js:0
+[   38622ms] [INFO] %c%d font-size:0;color:transparent NaN @ https://snap-assets.midtrans.com/snap/v4/assets/snap-popup-app.production.a5103c58b1066b302717.js:0
+[   59083ms] [LOG] 🔍 isSelectedTestRunning computed: {selectedTestResultId: 282cd3e0-f042-4272-ba5b-cef7a5293067, isRunning: false, version: 0, runningTestsSize: 0, runningTestIds: Array(0)} @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[   59192ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://backend-app.agentq.id/projects/307bf74e-9d6a-429a-a5ba-e8452ece5549/test-runs/823e6fe8-fa10-42cb-bc2c-ff5e012e7071/test-results/282cd3e0-f042-4272-ba5b-cef7a5293067/jira-issue:0
+[   66330ms] [LOG] 📝 startEditing called: {hasHistoryItem: false, viewOnly: false, historyItemId: undefined} @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[   66331ms] [LOG] ✅ Modal state set to: {mode: add, selectedHistoryItem: undefined, status: } @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[  129314ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://backend-app.agentq.id/projects/307bf74e-9d6a-429a-a5ba-e8452ece5549/test-runs/823e6fe8-fa10-42cb-bc2c-ff5e012e7071/test-results/91da84bf-47c1-45af-a6db-93a0528ea1c0/jira-issue:0
+[  129395ms] [LOG] Fetching test results with params: page=1&limit=10&sortField=tcId&sortDirection=ASC @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[  129517ms] [LOG] Sample test result data: Proxy(Object) @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[  129517ms] [LOG] Available fields: [id, testRunId, testCaseId, actualResult, duration, notes, status, vulnerabilityDescription, originalSeverity, adjustedSeverity, affectedUrls, requestResponse, remediationGuidance, screenshotUrl, videoUrl, logsUrl, logsSecurityUrl, highCount, mediumCount, lowCount, informationalCount, falsePositiveCount, sequence, previousResultId, isLatest, createdAt, updatedAt, createdBy, testCase] @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[  129519ms] [LOG] ExecutionTime value: undefined @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[  129519ms] [LOG] Duration value: null @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[  129519ms] [LOG] Final duration for display: undefined @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[  129519ms] [LOG] Video URL: null @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[  129519ms] [LOG] Screenshot URL: null @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[  129520ms] [LOG] Found 0 test results with video URLs @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[  129520ms] [LOG] Found 0 test results with screenshot URLs @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[  141443ms] [LOG] 📝 startEditing called: {hasHistoryItem: true, viewOnly: true, historyItemId: 91da84bf-47c1-45af-a6db-93a0528ea1c0} @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[  141443ms] [LOG] ✅ Modal state set to: {mode: view, selectedHistoryItem: 91da84bf-47c1-45af-a6db-93a0528ea1c0, status: failed} @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[  141502ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://backend-app.agentq.id/projects/307bf74e-9d6a-429a-a5ba-e8452ece5549/test-runs/823e6fe8-fa10-42cb-bc2c-ff5e012e7071/test-results/91da84bf-47c1-45af-a6db-93a0528ea1c0/jira-issue:0
+[ 1438957ms] [LOG] 🚪 Closing modal and resetting state @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6
+[ 1438958ms] [LOG] ✅ Modal state reset to: {mode: add, selectedHistoryItem: null, status: } @ https://agentq.id/assets/TestRunDetailWrapper-D9ow0wdI.js:6

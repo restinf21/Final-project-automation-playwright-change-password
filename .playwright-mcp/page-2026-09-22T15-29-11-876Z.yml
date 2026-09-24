@@ -1,0 +1,264 @@
+- generic [ref=f7e3]:
+  - generic [ref=f7e4]:
+    - generic [ref=f7e5]:
+      - generic [ref=f7e6] [cursor=pointer]:
+        - img "agentq" [ref=f7e7]
+        - generic [ref=f7e8]: Agent
+        - generic [ref=f7e9]: Q
+      - button "Collapse" [ref=f7e10] [cursor=pointer]
+    - generic [ref=f7e15] [cursor=pointer]:
+      - generic [ref=f7e18]: Dashboard
+      - generic [ref=f7e19]: Beta
+    - generic [ref=f7e20]:
+      - generic [ref=f7e21]: Projects
+      - generic [ref=f7e23]:
+        - generic [ref=f7e24] [cursor=pointer]:
+          - generic [ref=f7e25]: F
+          - generic [ref=f7e26]: Final Project Bootcamp Automation - Change Password (In-App)
+        - generic [ref=f7e29]:
+          - generic [ref=f7e30] [cursor=pointer]:
+            - generic [ref=f7e36]: Requirements
+            - generic [ref=f7e37]: Beta
+          - generic [ref=f7e38] [cursor=pointer]: Test Cases
+          - generic [ref=f7e44] [cursor=pointer]: Test Plans
+          - generic [ref=f7e48] [cursor=pointer]: Test Runs
+          - generic [ref=f7e53] [cursor=pointer]: Issues
+          - generic [ref=f7e63] [cursor=pointer]:
+            - generic [ref=f7e68]: Reports
+            - generic [ref=f7e69]: Beta
+          - generic [ref=f7e70] [cursor=pointer]:
+            - generic [ref=f7e75]: Q-Atlas
+            - generic [ref=f7e76]: Beta
+      - generic [ref=f7e77] [cursor=pointer]: Add project
+      - generic [ref=f7e80] [cursor=pointer]: View all projects
+    - generic [ref=f7e81]:
+      - generic [ref=f7e83]:
+        - generic [ref=f7e84]: Free
+        - generic [ref=f7e87]: 0 of 1,000 tokens used
+        - button "Upgrade plan" [ref=f7e88] [cursor=pointer]
+      - generic [ref=f7e91] [cursor=pointer]:
+        - generic [ref=f7e92]: R
+        - generic [ref=f7e93]: Resti Noor Fahmi
+  - main [ref=f7e94]:
+    - generic [ref=f7e98]:
+      - generic [ref=f7e102]:
+        - generic [ref=f7e103]:
+          - button "← Back to Test Runs" [ref=f7e105] [cursor=pointer]
+          - heading "Change Password (In-App) (1)" [level=1] [ref=f7e165]
+        - generic [ref=f7e167]:
+          - generic [ref=f7e168]:
+            - generic [ref=f7e169]: Type
+            - generic [ref=f7e170]: General
+          - generic [ref=f7e172]:
+            - generic [ref=f7e173]: Environment
+            - generic [ref=f7e174]: stagiing
+          - generic [ref=f7e175]: Build
+          - generic [ref=f7e177]:
+            - generic [ref=f7e178]: Release
+            - generic [ref=f7e179]: "001"
+          - generic [ref=f7e180]:
+            - generic [ref=f7e181]: Description
+            - generic [ref=f7e182]: Execute test case
+        - generic [ref=f7e106]:
+          - generic [ref=f7e107]:
+            - generic [ref=f7e108]: Total test
+            - generic [ref=f7e109]: "29"
+          - generic [ref=f7e111]:
+            - generic [ref=f7e112]:
+              - generic [ref=f7e113]: Passed
+              - generic [ref=f7e114]: 0 (0.00%)
+            - generic [ref=f7e115]:
+              - generic [ref=f7e116]: Failed
+              - generic [ref=f7e117]: 3 (10.34%)
+            - generic [ref=f7e118]:
+              - generic [ref=f7e119]: Blocked
+              - generic [ref=f7e120]: 0 (0.00%)
+            - generic [ref=f7e121]:
+              - generic [ref=f7e122]: Skipped
+              - generic [ref=f7e123]: 0 (0.00%)
+            - generic [ref=f7e124]:
+              - generic [ref=f7e125]: Untested
+              - generic [ref=f7e126]: 26 (89.66%)
+        - generic [ref=f7e127]:
+          - textbox "Search test case" [ref=f7e131]
+          - button "All filters" [ref=f7e132] [cursor=pointer]
+        - table [ref=f7e134]:
+          - rowgroup [ref=f7e135]:
+            - row [ref=f7e136]:
+              - columnheader [ref=f7e137] [cursor=pointer]:
+                - checkbox [ref=f7e138]
+              - columnheader [ref=f7e139] [cursor=pointer]:
+                - button "ID" [ref=f7e140]
+              - columnheader [ref=f7e144] [cursor=pointer]:
+                - button "Title" [ref=f7e145]
+              - columnheader [ref=f7e149] [cursor=pointer]:
+                - button "Priority" [ref=f7e150]
+              - columnheader [ref=f7e154] [cursor=pointer]:
+                - button "Status" [ref=f7e155]
+              - columnheader [ref=f7e159] [cursor=pointer]
+          - rowgroup [ref=f7e160]:
+            - row [ref=f7e183] [cursor=pointer]:
+              - cell [ref=f7e184]:
+                - checkbox [ref=f7e185]
+              - cell "TC-1" [ref=f7e186]
+              - cell "CP-001 - User successfully changes password using valid credentials" [ref=f7e187]
+              - cell "critical" [ref=f7e188]
+              - cell "failed" [ref=f7e189]
+              - cell [ref=f7e190]
+            - row [ref=f7e191] [cursor=pointer]:
+              - cell [ref=f7e192]:
+                - checkbox [ref=f7e193]
+              - cell "TC-2" [ref=f7e194]
+              - cell "CP-002 - Validate Current Password is required" [ref=f7e195]
+              - cell "high" [ref=f7e196]
+              - cell "failed" [ref=f7e197]
+              - cell [ref=f7e198]
+            - row [ref=f7e199] [cursor=pointer]:
+              - cell [ref=f7e200]:
+                - checkbox [ref=f7e201]
+              - cell "TC-3" [ref=f7e202]
+              - cell "CP-003 - Validate New Password is required" [ref=f7e203]
+              - cell "high" [ref=f7e204]
+              - cell "failed" [ref=f7e205]
+              - cell [ref=f7e206]
+            - row [ref=f7e207] [cursor=pointer]:
+              - cell [ref=f7e208]:
+                - checkbox [ref=f7e209]
+              - cell "TC-4" [ref=f7e210]
+              - cell "CP-004 - Validate Confirm New Password is required" [ref=f7e211]
+              - cell "high" [ref=f7e212]
+              - cell "untested" [ref=f7e213]
+              - cell [ref=f7e214]
+            - row [ref=f7e215] [cursor=pointer]:
+              - cell [ref=f7e216]:
+                - checkbox [ref=f7e217]
+              - cell "TC-5" [ref=f7e218]
+              - cell "CP-005 - Verify password strength indicator for New Password" [ref=f7e219]
+              - cell "high" [ref=f7e220]
+              - cell "untested" [ref=f7e221]
+              - cell [ref=f7e222]
+            - row [ref=f7e223] [cursor=pointer]:
+              - cell [ref=f7e224]:
+                - checkbox [ref=f7e225]
+              - cell "TC-6" [ref=f7e226]
+              - cell "CP-006 - Verify existing session remains active after password change" [ref=f7e227]
+              - cell "high" [ref=f7e228]
+              - cell "untested" [ref=f7e229]
+              - cell [ref=f7e230]
+            - row [ref=f7e231] [cursor=pointer]:
+              - cell [ref=f7e232]:
+                - checkbox [ref=f7e233]
+              - cell "TC-7" [ref=f7e234]
+              - cell "CP-007 - Verify password fields reset after successful change" [ref=f7e235]
+              - cell "high" [ref=f7e236]
+              - cell "untested" [ref=f7e237]
+              - cell [ref=f7e238]
+            - row [ref=f7e239] [cursor=pointer]:
+              - cell [ref=f7e240]:
+                - checkbox [ref=f7e241]
+              - cell "TC-8" [ref=f7e242]
+              - cell "CP-008 - Verify user remains on Change Password page after success" [ref=f7e243]
+              - cell "high" [ref=f7e244]
+              - cell "untested" [ref=f7e245]
+              - cell [ref=f7e246]
+            - row [ref=f7e247] [cursor=pointer]:
+              - cell [ref=f7e248]:
+                - checkbox [ref=f7e249]
+              - cell "TC-9" [ref=f7e250]
+              - cell "CP-009 - Verify success notification uses API message" [ref=f7e251]
+              - cell "high" [ref=f7e252]
+              - cell "untested" [ref=f7e253]
+              - cell [ref=f7e254]
+            - row [ref=f7e255] [cursor=pointer]:
+              - cell [ref=f7e256]:
+                - checkbox [ref=f7e257]
+              - cell "TC-10" [ref=f7e258]
+              - cell "CP-010 - Verify incorrect Current Password displays API error" [ref=f7e259]
+              - cell "high" [ref=f7e260]
+              - cell "untested" [ref=f7e261]
+              - cell [ref=f7e262]
+      - generic [ref=f7e263]:
+        - generic [ref=f7e264]:
+          - generic [ref=f7e265]: "Rows per page:"
+          - combobox [ref=f7e267] [cursor=pointer]:
+            - option "10" [selected]
+            - option "25"
+            - option "50"
+            - option "100"
+        - generic [ref=f7e268]:
+          - generic [ref=f7e269]: 1-10 of 29
+          - generic [ref=f7e270]:
+            - button [disabled] [ref=f7e271]
+            - button [ref=f7e274] [cursor=pointer]
+        - generic [ref=f7e277]:
+          - generic [ref=f7e278]:
+            - heading "TC-4 CP-004 - Validate Confirm New Password is required" [level=3] [ref=f7e279] [cursor=pointer]
+            - button "Esc" [ref=f7e280] [cursor=pointer]
+          - generic [ref=f7e282]:
+            - generic [ref=f7e285]:
+              - generic [ref=f7e286]:
+                - strong [ref=f7e287]: "Type:"
+                - text: functional
+              - generic [ref=f7e288]:
+                - strong [ref=f7e289]: "Priority:"
+                - text: high
+              - generic [ref=f7e290]:
+                - strong [ref=f7e291]: "Platform:"
+                - text: web
+              - generic [ref=f7e292]:
+                - strong [ref=f7e293]: "Test Case Type:"
+                - text: automation
+              - generic [ref=f7e294]:
+                - strong [ref=f7e295]: "Tags:"
+                - generic [ref=f7e296]:
+                  - generic [ref=f7e297]: validation
+                  - generic [ref=f7e298]: change-password
+                  - generic [ref=f7e299]: US-07
+                  - generic [ref=f7e300]: P1
+                  - generic [ref=f7e301]: required-field
+              - generic [ref=f7e302]:
+                - strong [ref=f7e303]: "Expectation:"
+                - paragraph [ref=f7e304]: Inline validation error is displayed for Confirm New Password; FE prevents submission; Change Password API request is not sent; Password remains unchanged.
+            - generic [ref=f7e305]:
+              - heading "Test Result History" [level=4] [ref=f7e307]
+              - generic [ref=f7e308]: No history available for this test case.
+            - button "Add result" [ref=f7e310] [cursor=pointer]
+        - generic [ref=f7e312]:
+          - generic [ref=f7e313]:
+            - generic [ref=f7e314]:
+              - heading "Add Test Result" [level=2] [ref=f7e315]
+              - button "Esc" [ref=f7e316] [cursor=pointer]
+            - generic [ref=f7e317]:
+              - generic [ref=f7e318]:
+                - generic [ref=f7e319]: Status
+                - combobox "Status" [ref=f7e320] [cursor=pointer]:
+                  - option "Select a status" [disabled]
+                  - option "Passed"
+                  - option "Failed" [selected]
+                  - option "Blocked"
+                  - option "Skipped"
+              - generic [ref=f7e321]:
+                - generic [ref=f7e322]: Actual Result
+                - textbox "Actual Result" [ref=f7e323]:
+                  - /placeholder: Enter actual result
+                  - text: "Confirm New Password was empty; Current Password and New Password were populated. Update Password was clicked and a form submit event occurred, but frontend prevented password-change API submission. Password-change request = NO; no change_password or reset_password request was observed. Password-change endpoint, HTTP status and response: N/A (no request). UI displayed generic toast \"Please fill in all fields\"; expected field-specific inline required validation for Confirm New Password was absent. UI remained on /settings/privacy. Authentication remained valid: POST https://api.emra.chat/api/v1/auth/login returned HTTP 200; sanitized response {\"success\":true,\"message\":\"Login successful\"}. Original-password verification returned HTTP 200 and success=true. Password remained unchanged."
+              - generic [ref=f7e324]:
+                - generic [ref=f7e325]: Notes
+                - textbox "Notes" [ref=f7e326]:
+                  - /placeholder: Enter notes
+                  - text: "Recorded from existing Playwright execution evidence: .tmp-required-fields/CP-004-result.json and CP-004.jsonl. No rerun was performed. Existing Playwright result: failed at unchanged inline-validation assertion. AgentQ Expected Result verified: inline validation for Confirm New Password, frontend submission prevention, no Change Password API request, password unchanged. FAILED is a product behavior mismatch: submission prevention occurred but required inline validation was absent. No password mutation occurred. Recorded through AgentQ UI using MCP Playwright with user authorization because AgentQ MCP was unavailable. Expected Result, definition, automation, assertions and test data unchanged. Only tcId 4 recorded; CP-002 and CP-003 already have complete Failed results."
+              - button "🐞 Create Defect" [ref=f7e331] [cursor=pointer]:
+                - generic [ref=f7e332]: 🐞
+                - text: Create Defect
+              - generic [ref=f7e327]:
+                - button "Cancel" [ref=f7e328] [cursor=pointer]
+                - button "Add Result" [active] [ref=f7e329] [cursor=pointer]
+          - generic [ref=f7e334]:
+            - generic [ref=f7e335]:
+              - heading "Confirm Add Result ?" [level=2] [ref=f7e336]
+              - button [ref=f7e337] [cursor=pointer]
+            - generic [ref=f7e341]:
+              - paragraph [ref=f7e342]: Are you sure you want to add this test result?
+              - generic [ref=f7e343]:
+                - button "Cancel" [ref=f7e344] [cursor=pointer]
+                - button "Add Result" [ref=f7e345] [cursor=pointer]

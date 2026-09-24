@@ -1,0 +1,45 @@
+- generic [ref=f7e3]:
+  - generic [ref=f7e4]:
+    - generic [ref=f7e5]:
+      - generic [ref=f7e6] [cursor=pointer]:
+        - img "agentq" [ref=f7e7]
+        - generic [ref=f7e8]: Agent
+        - generic [ref=f7e9]: Q
+      - button "Collapse" [ref=f7e10] [cursor=pointer]
+    - generic [ref=f7e15] [cursor=pointer]:
+      - generic [ref=f7e18]: Dashboard
+      - generic [ref=f7e19]: Beta
+    - generic [ref=f7e20]:
+      - generic [ref=f7e21]: Projects
+      - generic [ref=f7e23]:
+        - generic [ref=f7e24] [cursor=pointer]:
+          - generic [ref=f7e25]: F
+          - generic [ref=f7e26]: Final Project Bootcamp Automation - Change Password (In-App)
+        - generic [ref=f7e29]:
+          - generic [ref=f7e30] [cursor=pointer]:
+            - generic [ref=f7e36]: Requirements
+            - generic [ref=f7e37]: Beta
+          - generic [ref=f7e38] [cursor=pointer]: Test Cases
+          - generic [ref=f7e44] [cursor=pointer]: Test Plans
+          - generic [ref=f7e48] [cursor=pointer]: Test Runs
+          - generic [ref=f7e53] [cursor=pointer]: Issues
+          - generic [ref=f7e63] [cursor=pointer]:
+            - generic [ref=f7e68]: Reports
+            - generic [ref=f7e69]: Beta
+          - generic [ref=f7e70] [cursor=pointer]:
+            - generic [ref=f7e75]: Q-Atlas
+            - generic [ref=f7e76]: Beta
+      - generic [ref=f7e77] [cursor=pointer]: Add project
+      - generic [ref=f7e80] [cursor=pointer]: View all projects
+    - generic [ref=f7e81]:
+      - generic [ref=f7e83]:
+        - generic [ref=f7e84]: Free
+        - generic [ref=f7e87]: 0 of 1,000 tokens used
+        - button "Upgrade plan" [ref=f7e88] [cursor=pointer]
+      - generic [ref=f7e91] [cursor=pointer]:
+        - generic [ref=f7e92]: R
+        - generic [ref=f7e93]: Resti Noor Fahmi
+  - main [ref=f7e94]:
+    - generic [ref=f7e95]:
+      - generic [ref=f7e96]: Loading project details...
+      - paragraph [ref=f7e101]: Loading test run details...

@@ -1,0 +1,61 @@
+{
+  "accounts": {
+    "web": {
+      "email": "FILL_MANUALLY",
+      "original_password": "FILL_MANUALLY"
+    },
+    "api_success": {
+      "email": "FILL_MANUALLY",
+      "original_password": "FILL_MANUALLY"
+    },
+    "api_validation": {
+      "email": "FILL_MANUALLY",
+      "original_password": "FILL_MANUALLY"
+    },
+    "api_boundary": {
+      "email": "FILL_MANUALLY",
+      "original_password": "FILL_MANUALLY"
+    },
+    "api_negative": {
+      "email": "FILL_MANUALLY",
+      "original_password": "FILL_MANUALLY"
+    },
+    "api_policy": {
+      "email": "FILL_MANUALLY",
+      "original_password": "FILL_MANUALLY"
+    }
+  },
+  "passwords": {
+    "empty_password": "",
+    "valid_new_password": "ValidChange123",
+    "incorrect_current_password": "IncorrectCurrent123",
+    "no_uppercase": "abcdefgh1",
+    "no_lowercase": "ABCDEFGH1",
+    "no_number": "Abcdefgh",
+    "exactly_8_chars": "Abcdefg1",
+    "exactly_50_chars": "Abcdefgh1JAbcdefgh1JAbcdefgh1JAbcdefgh1JAbcdefgh1J",
+    "less_than_8_chars": "Abcdef1",
+    "more_than_50_chars": "Abcdefgh1JAbcdefgh1JAbcdefgh1JAbcdefgh1JAbcdefgh1Jk",
+    "mismatch_new_password": "MismatchNew123",
+    "mismatch_confirmation": "MismatchOther123",
+    "without_special_character": "PolicyChange028"
+  },
+  "temporary_passwords": {
+    "CP-001": "TempChange001a",
+    "CP-006": "TempChange006a",
+    "CP-007": "TempChange007a",
+    "CP-008": "TempChange008a",
+    "CP-009": "TempChange009a",
+    "CP-011": "TempChange011a",
+    "CP-012": "TempChange012a",
+    "CP-014": "TempChange014a"
+  },
+  "authentication_data": {
+    "invalid_token": "intentionally-invalid-token-cp019"
+  },
+  "strength_indicator": {
+    "status": "UNRESOLVED",
+    "samples": [],
+    "reason": "CP-005 requires values representing different strengths but defines no concrete values, strength levels, thresholds, or expected mappings."
+  }
+}
