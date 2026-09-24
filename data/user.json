@@ -1,0 +1,517 @@
+{
+  "accounts": {
+    "web": {
+      "email": "testing01-resti@yopmail.com",
+      "original_password": "@Testing99"
+    },
+    "api_success": {
+      "email": "testing02-resti@yopmail.com",
+      "original_password": "@Testing99"
+    },
+    "api_validation": {
+      "email": "testing03-resti@yopmail.com",
+      "original_password": "@Testing99"
+    },
+    "api_boundary": {
+      "email": "testing04-resti@yopmail.com",
+      "original_password": "@Testing99"
+    },
+    "api_negative": {
+      "email": "testing05-resti@yopmail.com",
+      "original_password": "@Testing99"
+    },
+    "api_policy": {
+      "email": "testing06-resti@yopmail.com",
+      "original_password": "@Testing99"
+    }
+  },
+  "passwords": {
+    "empty_password": "",
+    "valid_new_password": "ValidChange123",
+    "incorrect_current_password": "IncorrectCurrent123",
+    "no_uppercase": "abcdefgh1",
+    "no_lowercase": "ABCDEFGH1",
+    "no_number": "Abcdefgh",
+    "exactly_8_chars": "Abcdefg1",
+    "exactly_50_chars": "Abcdefgh1JAbcdefgh1JAbcdefgh1JAbcdefgh1JAbcdefgh1J",
+    "less_than_8_chars": "Abcdef1",
+    "more_than_50_chars": "Abcdefgh1JAbcdefgh1JAbcdefgh1JAbcdefgh1JAbcdefgh1Jk",
+    "mismatch_new_password": "MismatchNew123",
+    "mismatch_confirmation": "MismatchOther123",
+    "without_special_character": "PolicyChange028"
+  },
+  "temporary_passwords": {
+    "CP-001": "TempChange001a",
+    "CP-006": "TempChange006a",
+    "CP-007": "TempChange007a",
+    "CP-008": "TempChange008a",
+    "CP-009": "TempChange009a",
+    "CP-011": "TempChange011a",
+    "CP-012": "TempChange012a",
+    "CP-014": "TempChange014a"
+  },
+  "authentication_data": {
+    "invalid_token": "intentionally-invalid-token-cp019"
+  },
+  "strength_indicator": {
+    "status": "UNRESOLVED",
+    "samples": [],
+    "reason": "CP-005 requires values representing different strengths but defines no concrete values, strength levels, thresholds, or expected mappings."
+  },
+  "test_cases": {
+    "CP-001": {
+      "account": "web",
+      "classification": "MUTATION",
+      "authentication": "authenticated_session",
+      "current_password": {
+        "ref": "accounts.web.original_password"
+      },
+      "new_password": {
+        "ref": "temporary_passwords.CP-001"
+      },
+      "password_confirmation": {
+        "ref": "temporary_passwords.CP-001"
+      },
+      "temporary_password": {
+        "ref": "temporary_passwords.CP-001"
+      }
+    },
+    "CP-002": {
+      "account": "web",
+      "classification": "NON-MUTATION",
+      "authentication": "authenticated_session",
+      "current_password": {
+        "ref": "passwords.empty_password"
+      },
+      "new_password": {
+        "ref": "passwords.valid_new_password"
+      },
+      "password_confirmation": {
+        "ref": "passwords.valid_new_password"
+      }
+    },
+    "CP-003": {
+      "account": "web",
+      "classification": "NON-MUTATION",
+      "authentication": "authenticated_session",
+      "current_password": {
+        "ref": "accounts.web.original_password"
+      },
+      "new_password": {
+        "ref": "passwords.empty_password"
+      },
+      "password_confirmation": {
+        "ref": "passwords.empty_password"
+      }
+    },
+    "CP-004": {
+      "account": "web",
+      "classification": "NON-MUTATION",
+      "authentication": "authenticated_session",
+      "current_password": {
+        "ref": "accounts.web.original_password"
+      },
+      "new_password": {
+        "ref": "passwords.valid_new_password"
+      },
+      "password_confirmation": {
+        "ref": "passwords.empty_password"
+      }
+    },
+    "CP-005": {
+      "account": "web",
+      "classification": "NON-MUTATION",
+      "authentication": "authenticated_session",
+      "strength_indicator_data": {
+        "ref": "strength_indicator"
+      }
+    },
+    "CP-006": {
+      "account": "web",
+      "classification": "MUTATION",
+      "authentication": "authenticated_session",
+      "current_password": {
+        "ref": "accounts.web.original_password"
+      },
+      "new_password": {
+        "ref": "temporary_passwords.CP-006"
+      },
+      "password_confirmation": {
+        "ref": "temporary_passwords.CP-006"
+      },
+      "temporary_password": {
+        "ref": "temporary_passwords.CP-006"
+      }
+    },
+    "CP-007": {
+      "account": "web",
+      "classification": "MUTATION",
+      "authentication": "authenticated_session",
+      "current_password": {
+        "ref": "accounts.web.original_password"
+      },
+      "new_password": {
+        "ref": "temporary_passwords.CP-007"
+      },
+      "password_confirmation": {
+        "ref": "temporary_passwords.CP-007"
+      },
+      "temporary_password": {
+        "ref": "temporary_passwords.CP-007"
+      }
+    },
+    "CP-008": {
+      "account": "web",
+      "classification": "MUTATION",
+      "authentication": "authenticated_session",
+      "current_password": {
+        "ref": "accounts.web.original_password"
+      },
+      "new_password": {
+        "ref": "temporary_passwords.CP-008"
+      },
+      "password_confirmation": {
+        "ref": "temporary_passwords.CP-008"
+      },
+      "temporary_password": {
+        "ref": "temporary_passwords.CP-008"
+      }
+    },
+    "CP-009": {
+      "account": "web",
+      "classification": "MUTATION",
+      "authentication": "authenticated_session",
+      "current_password": {
+        "ref": "accounts.web.original_password"
+      },
+      "new_password": {
+        "ref": "temporary_passwords.CP-009"
+      },
+      "password_confirmation": {
+        "ref": "temporary_passwords.CP-009"
+      },
+      "temporary_password": {
+        "ref": "temporary_passwords.CP-009"
+      }
+    },
+    "CP-010": {
+      "account": "web",
+      "classification": "NON-MUTATION",
+      "authentication": "authenticated_session",
+      "current_password": {
+        "ref": "passwords.incorrect_current_password"
+      },
+      "new_password": {
+        "ref": "passwords.valid_new_password"
+      },
+      "password_confirmation": {
+        "ref": "passwords.valid_new_password"
+      }
+    },
+    "CP-011": {
+      "account": "web",
+      "classification": "MUTATION",
+      "authentication": "authenticated_session",
+      "current_password": {
+        "ref": "accounts.web.original_password"
+      },
+      "new_password": {
+        "ref": "temporary_passwords.CP-011"
+      },
+      "password_confirmation": {
+        "ref": "temporary_passwords.CP-011"
+      },
+      "temporary_password": {
+        "ref": "temporary_passwords.CP-011"
+      },
+      "login_password": {
+        "ref": "temporary_passwords.CP-011"
+      }
+    },
+    "CP-012": {
+      "account": "web",
+      "classification": "MUTATION",
+      "authentication": "authenticated_session",
+      "current_password": {
+        "ref": "accounts.web.original_password"
+      },
+      "new_password": {
+        "ref": "temporary_passwords.CP-012"
+      },
+      "password_confirmation": {
+        "ref": "temporary_passwords.CP-012"
+      },
+      "temporary_password": {
+        "ref": "temporary_passwords.CP-012"
+      },
+      "login_password": {
+        "ref": "accounts.web.original_password"
+      }
+    },
+    "CP-013": {
+      "account": "web",
+      "classification": "NON-MUTATION",
+      "authentication": "none"
+    },
+    "CP-014": {
+      "account": "api_success",
+      "classification": "MUTATION",
+      "authentication": "dynamic_bearer_token",
+      "current_password": {
+        "ref": "accounts.api_success.original_password"
+      },
+      "new_password": {
+        "ref": "temporary_passwords.CP-014"
+      },
+      "password_confirmation": {
+        "ref": "temporary_passwords.CP-014"
+      },
+      "temporary_password": {
+        "ref": "temporary_passwords.CP-014"
+      }
+    },
+    "CP-015": {
+      "account": "api_validation",
+      "classification": "NON-MUTATION",
+      "authentication": "dynamic_bearer_token",
+      "current_password": {
+        "ref": "passwords.incorrect_current_password"
+      },
+      "new_password": {
+        "ref": "passwords.valid_new_password"
+      },
+      "password_confirmation": {
+        "ref": "passwords.valid_new_password"
+      }
+    },
+    "CP-016": {
+      "account": "api_validation",
+      "classification": "NON-MUTATION",
+      "authentication": "dynamic_bearer_token",
+      "current_password": {
+        "ref": "accounts.api_validation.original_password"
+      },
+      "new_password": {
+        "ref": "passwords.no_uppercase"
+      },
+      "password_confirmation": {
+        "ref": "passwords.no_uppercase"
+      }
+    },
+    "CP-017": {
+      "account": "api_validation",
+      "classification": "NON-MUTATION",
+      "authentication": "dynamic_bearer_token",
+      "current_password": {
+        "ref": "accounts.api_validation.original_password"
+      },
+      "new_password": {
+        "ref": "passwords.no_lowercase"
+      },
+      "password_confirmation": {
+        "ref": "passwords.no_lowercase"
+      }
+    },
+    "CP-018": {
+      "account": "api_validation",
+      "classification": "NON-MUTATION",
+      "authentication": "dynamic_bearer_token",
+      "current_password": {
+        "ref": "accounts.api_validation.original_password"
+      },
+      "new_password": {
+        "ref": "passwords.no_number"
+      },
+      "password_confirmation": {
+        "ref": "passwords.no_number"
+      }
+    },
+    "CP-019": {
+      "account": "api_validation",
+      "classification": "NON-MUTATION",
+      "authentication": "missing_authorization_and_invalid_token",
+      "current_password": {
+        "ref": "accounts.api_validation.original_password"
+      },
+      "new_password": {
+        "ref": "passwords.valid_new_password"
+      },
+      "password_confirmation": {
+        "ref": "passwords.valid_new_password"
+      },
+      "authorization_scenarios": [
+        {
+          "mode": "omit_header"
+        },
+        {
+          "mode": "bearer",
+          "value": {
+            "ref": "authentication_data.invalid_token"
+          }
+        }
+      ]
+    },
+    "CP-020": {
+      "account": "api_validation",
+      "classification": "NON-MUTATION",
+      "authentication": "dynamic_bearer_token",
+      "current_password": {
+        "ref": "passwords.empty_password"
+      },
+      "new_password": {
+        "ref": "passwords.valid_new_password"
+      },
+      "password_confirmation": {
+        "ref": "passwords.valid_new_password"
+      }
+    },
+    "CP-021": {
+      "account": "api_validation",
+      "classification": "NON-MUTATION",
+      "authentication": "dynamic_bearer_token",
+      "current_password": {
+        "ref": "accounts.api_validation.original_password"
+      },
+      "new_password": {
+        "ref": "passwords.empty_password"
+      },
+      "password_confirmation": {
+        "ref": "passwords.empty_password"
+      }
+    },
+    "CP-022": {
+      "account": "api_validation",
+      "classification": "NON-MUTATION",
+      "authentication": "dynamic_bearer_token",
+      "current_password": {
+        "ref": "accounts.api_validation.original_password"
+      },
+      "new_password": {
+        "ref": "passwords.valid_new_password"
+      },
+      "password_confirmation": {
+        "ref": "passwords.empty_password"
+      }
+    },
+    "CP-023": {
+      "account": "api_boundary",
+      "classification": "MUTATION",
+      "authentication": "dynamic_bearer_token",
+      "current_password": {
+        "ref": "accounts.api_boundary.original_password"
+      },
+      "new_password": {
+        "ref": "passwords.exactly_8_chars"
+      },
+      "password_confirmation": {
+        "ref": "passwords.exactly_8_chars"
+      },
+      "temporary_password": {
+        "ref": "passwords.exactly_8_chars"
+      }
+    },
+    "CP-024": {
+      "account": "api_boundary",
+      "classification": "MUTATION",
+      "authentication": "dynamic_bearer_token",
+      "current_password": {
+        "ref": "accounts.api_boundary.original_password"
+      },
+      "new_password": {
+        "ref": "passwords.exactly_50_chars"
+      },
+      "password_confirmation": {
+        "ref": "passwords.exactly_50_chars"
+      },
+      "temporary_password": {
+        "ref": "passwords.exactly_50_chars"
+      }
+    },
+    "CP-025": {
+      "account": "api_negative",
+      "classification": "NON-MUTATION",
+      "authentication": "dynamic_bearer_token",
+      "current_password": {
+        "ref": "accounts.api_negative.original_password"
+      },
+      "new_password": {
+        "ref": "passwords.less_than_8_chars"
+      },
+      "password_confirmation": {
+        "ref": "passwords.less_than_8_chars"
+      }
+    },
+    "CP-026": {
+      "account": "api_negative",
+      "classification": "NON-MUTATION",
+      "authentication": "dynamic_bearer_token",
+      "current_password": {
+        "ref": "accounts.api_negative.original_password"
+      },
+      "new_password": {
+        "ref": "passwords.more_than_50_chars"
+      },
+      "password_confirmation": {
+        "ref": "passwords.more_than_50_chars"
+      }
+    },
+    "CP-027": {
+      "account": "api_negative",
+      "classification": "NON-MUTATION",
+      "authentication": "dynamic_bearer_token",
+      "current_password": {
+        "ref": "accounts.api_negative.original_password"
+      },
+      "new_password": {
+        "ref": "passwords.mismatch_new_password"
+      },
+      "password_confirmation": {
+        "ref": "passwords.mismatch_confirmation"
+      }
+    },
+    "CP-028": {
+      "account": "api_policy",
+      "classification": "MUTATION",
+      "authentication": "dynamic_bearer_token",
+      "current_password": {
+        "ref": "accounts.api_policy.original_password"
+      },
+      "new_password": {
+        "ref": "passwords.without_special_character"
+      },
+      "password_confirmation": {
+        "ref": "passwords.without_special_character"
+      },
+      "temporary_password": {
+        "ref": "passwords.without_special_character"
+      }
+    },
+    "CP-029": {
+      "account": "api_policy",
+      "classification": "MUTATION",
+      "authentication": "dynamic_bearer_token",
+      "current_password": {
+        "ref": "accounts.api_policy.original_password"
+      },
+      "new_password": {
+        "ref": "accounts.api_policy.original_password"
+      },
+      "password_confirmation": {
+        "ref": "accounts.api_policy.original_password"
+      },
+      "temporary_password": {
+        "ref": "accounts.api_policy.original_password"
+      },
+      "password_value_changes": false
+    }
+  },
+  "data_notes": {
+    "references": "Objects with a ref field name a data path in this file; they are references, not literal passwords. No resolver is implemented.",
+    "account_setup": "QA Engineer manually provides all six existing active dedicated accounts. No account creation or access is performed.",
+    "password_state": "Cases referencing original_password assume that original state has been restored. Known mutation candidates are listed per case for future state detection and restoration; no recovery is implemented.",
+    "credential_constraints": "When manually filling accounts, use valid original passwords distinct from assigned temporary candidates and incorrect_current_password. CP-029 explicitly requires its original password to satisfy the policy.",
+    "tokens": "Valid authentication tokens must be obtained dynamically later and never persisted here. invalid_token is deliberately fake test input, not an issued access or refresh token.",
+    "confirmation_choices": "CP-003 allows entering or leaving confirmation; empty is selected. CP-021 does not specify confirmation; empty matching the empty new password is selected as a fixture choice.",
+    "cp029": "Classified MUTATION because the change-password operation succeeds; all three password fields reference accounts.api_policy.original_password, so the password value remains unchanged."
+  }
+}
