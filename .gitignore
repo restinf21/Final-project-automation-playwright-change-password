@@ -8,5 +8,5 @@ node_modules/
 /playwright/.auth/
 
 # Local QA account credentials
-/data/user.json
-.tmp*
+.tmp-*/
+.playwright-mcp/

@@ -9,7 +9,7 @@ export default defineConfig({
   retries: 0,
   workers: 1,
   // Stop before another account mutation after an assertion or recovery failure.
-  maxFailures: 1,
+  maxFailures: 0,
   reporter: 'html',
   use: {
     baseURL: BASE_URL,
