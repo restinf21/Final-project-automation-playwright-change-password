@@ -20,7 +20,7 @@ jobs:
 
       - name: Build and Push Base Image
         run: |
-          docker build -t $DOCKERHUB_USERNAME/Final-project-automation-playwright-change-password:base .
-          docker push $DOCKERHUB_USERNAME/Final-project-automation-playwright-change-password:base
+          docker build -t $DOCKERHUB_USERNAME/final-project-automation-playwright-change-password:base .
+          docker push $DOCKERHUB_USERNAME/final-project-automation-playwright-change-password:base
         env:
           DOCKERHUB_USERNAME: ${{ vars.DOCKERHUB_USERNAME }}
